@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  free-math:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "80:80"
